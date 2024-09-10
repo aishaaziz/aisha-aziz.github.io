@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salam Air Destination Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 90vh;
+            width: 100%;
+        }
+        #controls {
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d6e028;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font: 500;
+            font-size: larger;
+        }
+        #originSelect, #countrySelect {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .leaflet-tooltip-top:before, 
+        .leaflet-tooltip-bottom:before, 
+        .leaflet-tooltip-left:before, 
+        .leaflet-tooltip-right:before {
+            border: none !important;
+        }
+        .popup {
+            background: rgba(0, 0, 0, 0) !important;
+            border: none !important;
+            font-size: 12px;
+            font-weight: 800;
+            color: #00acca;
+            box-shadow: none !important;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <label for="originSelect">Where would you like to start your journey from?</label>
+        <select id="countrySelect">
+            <option value="All">All Countries</option>
+        </select>
+        <select id="originSelect">
+            <option value="">--Select Origin--</option>
+        </select>
+    </div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map and set its view to Muscat, Oman
+        var map = L.map('map').setView([23.5880, 58.3829], 4);
+
+        // Add Esri World Gray Canvas basemap
+        var Esri_WorldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+            maxZoom: 8,
+            minZoom: 4
+        });
+
+        // Add the basemap to the map
+        Esri_WorldGrayCanvas.addTo(map);
+
+        map.on('zoomend', function(evt) {
+            hideOverlappingTooltips();
+        });
+
+        var currentDestinationMarkers = [];
+        var currentLines = [];
+        var originMarkers = [];
+        var transitMarkers = [];
+        var country_list = [];
+        var data;
+
+        // Function to create a circle marker with given options
+        function createCircleMarker(lat, lon, options) {
+            return L.circleMarker([lat, lon], options).addTo(map);
+        }
+
+        // Function to create a square marker
+        function createSquareMarker(lat, lon, options) {
+            return L.marker([lat, lon], {
+                icon: L.divIcon({
+                    className: 'custom-square-marker',
+                    html: `<div style="width: 18px; height: 18px; background-color: ${options.fillColor}; border: 2px solid ${options.color};"></div>`
+                })
+            }).addTo(map);
+        }
+
+        // Function to clear existing destination markers and lines
+        function clearDestinationMarkers() {
+            currentDestinationMarkers.forEach(marker => map.removeLayer(marker));
+            currentDestinationMarkers = [];
+            transitMarkers.forEach(marker => map.removeLayer(marker));
+            transitMarkers = [];
+            currentLines.forEach(line => map.removeLayer(line));
+            currentLines = [];
+        }
+
+        function clearOriginMarkers(){
+            if (originMarkers.length > 0){
+                originMarkers.forEach(marker => map.removeLayer(marker.marker));
+            }
+            originMarkers = [];
+        }
+
+        // Function to add markers to the map
+        function addMarkers(d) {
+            clearOriginMarkers();
+            var group = new L.featureGroup();
+            d.forEach(item => {
+                var origin = item.origin;
+                var destinations = item.destinations;
+                var transit = item.transit;
+                var origin_country = item.origin.country;
+
+                // Create origin marker
+                var originMarker = createCircleMarker(origin.lat, origin.lon, {
+                    color: '#A7A9AC', // Pantone 877C
+                    fillColor: '#A7A9AC',
+                    fillOpacity: 1,
+                    radius: 8
+                }).bindTooltip(`${origin.name}`,{permanent:true, direction: 'bottom', className: 'popup'}).openTooltip();
+
+                hideOverlappingTooltips();
+
+                originMarker.on('click', function() {
+                    var originselector = document.getElementById('originSelect');
+                    originselector.value = origin.name;
+                    updateMarkersForSelectedOrigin(origin.name);
+                });
+
+                originMarkers.push({
+                    marker: originMarker,
+                    destinations: destinations,
+                    transit: transit
+                });
+                group.addLayer(originMarker);
+
+                // Add origin to the dropdown menu
+                var option = document.createElement('option');
+                option.value = origin.name;
+                option.textContent = origin.name;
+                document.getElementById('originSelect').appendChild(option);
+
+                if (!country_list.includes(origin_country)){
+                    country_list.push(origin_country);
+                    var country = document.createElement('option');
+                    country.value = origin_country;
+                    country.textContent = origin_country;
+                    document.getElementById('countrySelect').appendChild(country);
+                }
+            });
+            map.fitBounds(group.getBounds());
+
+        }
+
+        // Function to update destination markers and lines based on selected origin
+        function updateMarkersForSelectedOrigin(originName) {
+            clearDestinationMarkers();
+            var group = new L.featureGroup();
+            originMarkers.forEach(item => {
+                if (item.marker.getTooltip().getContent().includes(`${originName}`)) {
+                    item.marker.setStyle({
+                        color: '#FFFFFF', // White stroke
+                        fillColor: '#00acca', // Origin fill color
+                        fillOpacity: 1,
+                        radius: 12
+                    });
+
+                    if (item.transit.name === "No Transit") {
+                        item.destinations.forEach(destination => {
+                            var destinationMarker = createCircleMarker(destination.lat, destination.lon, {
+                                color: '#FFFFFF', // White stroke
+                                fillColor: '#81b43f', // Destination fill color
+                                radius: 8,
+                                fillOpacity: 1,
+                            }).bindTooltip(`${destination.name}`,{permanent:true, direction: 'bottom', className: 'popup'}).openTooltip();
+
+                            currentDestinationMarkers.push(destinationMarker);
+                            group.addLayer(destinationMarker);
+                            group.addLayer(item.marker);
+
+                            // Draw straight lines between origin and destination
+                            var line1 = L.polyline([[item.marker.getLatLng().lat, item.marker.getLatLng().lng], [destination.lat, destination.lon]], {
+                                color: '#81b43f', // Destination color
+                                weight: 2
+                            }).addTo(map);
+                            currentLines.push(line1);
+
+                            destinationMarker.on('click', function() {
+                                console.log(destination.name);
+                                updateMarkersForSelectedOrigin(destination.name);
+                            });
+                        });
+                    } else {
+                        // Create transit marker
+                        var transitMarker = createSquareMarker(item.transit.lat, item.transit.lon, {
+                            color: '#FFFFFF', // White stroke
+                            fillColor: '#00acca'
+                        });
+
+                        transitMarkers.push(transitMarker);
+
+                        item.destinations.forEach(destination => {
+                            var destinationMarker = createCircleMarker(destination.lat, destination.lon, {
+                                color: '#FFFFFF', // White stroke
+                                fillColor: '#81b43f', // Destination fill color
+                                radius: 8,
+                                fillOpacity: 1,
+                            }).bindTooltip(`${destination.name}`,{permanent:true, direction: 'bottom', className: 'popup'}).openTooltip();
+
+                            currentDestinationMarkers.push(destinationMarker);
+                            group.addLayer(destinationMarker);
+                            group.addLayer(item.marker);
+
+                            // Draw straight lines between origin, transit, and destination
+                            var line1 = L.polyline([[item.marker.getLatLng().lat, item.marker.getLatLng().lng], [item.transit.lat, item.transit.lon]], {
+                                color: '#81b43f', // Destination color
+                                weight: 2
+                            }).addTo(map);
+                            currentLines.push(line1);
+
+                            var line2 = L.polyline([[item.transit.lat, item.transit.lon], [destination.lat, destination.lon]], {
+                                color: '#81b43f', // Destination color
+                                weight: 2
+                            }).addTo(map);
+                            currentLines.push(line2);
+
+                            destinationMarker.on('click', function() {
+                                console.log(destination.name);
+                                updateMarkersForSelectedOrigin(destination.name);
+                            });
+
+                            transitMarker.on('click', function() {
+                                console.log(destination.name);
+                                updateMarkersForSelectedOrigin(destination.name);
+                            });
+
+                        });
+                    }
+                    map.fitBounds(group.getBounds());
+                } else {
+                    item.marker.setStyle({
+                        color: '#A7A9AC', // Pantone 877C
+                        fillColor: '#A7A9AC',
+                        fillOpacity: 1,
+                        radius: 8
+                    });
+                }
+            });
+        }
+
+        // Add event listener for the dropdown menu
+        document.getElementById('originSelect').addEventListener('change', function() {
+            var selectedOrigin = this.value;
+            if (selectedOrigin) {
+                updateMarkersForSelectedOrigin(selectedOrigin);
+            } else {
+                clearDestinationMarkers();
+                originMarkers.forEach(item => {
+                    item.marker.setStyle({
+                        color: '#A7A9AC', // Pantone 877C
+                        fillColor: '#A7A9AC',
+                        fillOpacity: 1,
+                        radius: 8
+                    });
+                });
+            }
+        });
+
+        //show origins based on country selection
+        document.getElementById('countrySelect').addEventListener('change', function(){
+            var selectedCountry = this.value;
+            console.log(selectedCountry);
+            clearDestinationMarkers();
+            if (selectedCountry == 'All'){
+                addMarkers(data);
+            }
+            else{
+                var selectedData = [];
+                var originList = document.getElementById('originSelect');
+                originList.innerHTML = "<option value=''>--Select Origin--</option>";
+                data.forEach(item => {
+                    if (item.origin.country == selectedCountry){
+                        selectedData.push(item);
+                    }
+                });
+                addMarkers(selectedData);
+            }
+        });
+
+        function overlap(rect1, rect2) {
+        return(!(rect1.right < rect2.left || 
+                rect1.left > rect2.right || 
+                rect1.bottom < rect2.top || 
+                rect1.top > rect2.bottom));
+        }
+
+        function hideOverlappingTooltips() {
+            var rects = [];
+            var tooltips = document.getElementsByClassName('popup');
+            for (var i = 0; i < tooltips.length; i++) {
+                tooltips[i].style.visibility = '';
+                rects[i] = tooltips[i].getBoundingClientRect();
+            }
+            for (var i = 0; i < tooltips.length; i++) {
+                if (tooltips[i].style.visibility != 'hidden') {
+                for (var j = i + 1; j < tooltips.length; j++) {
+                    if (overlap(rects[i], rects[j])) tooltips[j].style.visibility = 'hidden';
+                }
+                }
+            }
+        }
+
+
+
+        // Fetch JSON data and add markers to the map
+        fetch('output.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                data = jsonData;
+                addMarkers(data);
+            })
+            .catch(error => console.error('Error fetching JSON data:', error));
+    </script>
+</body>
+</html>

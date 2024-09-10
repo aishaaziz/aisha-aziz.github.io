@@ -1,0 +1,4957 @@
+[
+    {
+        "origin": {
+            "name": "Almaty",
+            "country": "Kazakhstan",
+            "lat": 43.34651814,
+            "lon": 77.0119939
+        },
+        "destinations": [
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Bahrain",
+            "country": "Bahrain",
+            "lat": 26.26741558,
+            "lon": 50.63001447
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Bairut",
+            "country": "Lebanon",
+            "lat": 33.82589151,
+            "lon": 35.49276702
+        },
+        "destinations": [
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Baghdad ",
+            "country": "Iraq",
+            "lat": 33.26771992,
+            "lon": 44.23077194
+        },
+        "destinations": [
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Bangkok",
+            "country": "Iraq",
+            "lat": 13.69239184,
+            "lon": 100.750564
+        },
+        "destinations": [
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Calicut",
+            "country": "India",
+            "lat": 11.13956658,
+            "lon": 75.95121222
+        },
+        "destinations": [
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Chittagong",
+            "country": "Bangladesh",
+            "lat": 22.24575776,
+            "lon": 91.81446412
+        },
+        "destinations": [
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Colombo",
+            "country": "Sri Lanka",
+            "lat": 7.180070835,
+            "lon": 79.88417006
+        },
+        "destinations": [
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Dhaka",
+            "country": "Bangladesh",
+            "lat": 23.8432299,
+            "lon": 90.40206514
+        },
+        "destinations": [
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Delhi",
+            "country": "India",
+            "lat": 28.55629445,
+            "lon": 77.09960824
+        },
+        "destinations": [
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Dammam",
+            "country": "Saudi Arabia",
+            "lat": 26.4731379,
+            "lon": 49.79453543
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Doha",
+            "country": "Qatar",
+            "lat": 25.2677098,
+            "lon": 51.55819875
+        },
+        "destinations": [
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Duqm",
+            "country": "Oman",
+            "lat": 19.50340891,
+            "lon": 57.63664505
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Dubai",
+            "country": "United Arab Emirates",
+            "lat": 25.07725,
+            "lon": 55.30927
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Fujairah",
+            "country": "United Arab Emirates",
+            "lat": 25.176729,
+            "lon": 56.355046
+        },
+        "destinations": [
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Baku",
+            "country": "Azerbaijan",
+            "lat": 40.409264,
+            "lon": 49.867092
+        },
+        "destinations": [
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Phuket",
+            "country": "Thailand",
+            "lat": 8.105340192,
+            "lon": 98.30522515
+        },
+        "destinations": [
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Hyderabad ",
+            "country": "India",
+            "lat": 17.361431,
+            "lon": 78.474533
+        },
+        "destinations": [
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Tehran ",
+            "country": "Iran",
+            "lat": 35.40981184,
+            "lon": 51.15535079
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Islamabad ",
+            "country": "Pakistan",
+            "lat": 33.55620027,
+            "lon": 72.83441615
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Jaipur",
+            "country": "India",
+            "lat": 26.82818436,
+            "lon": 75.80569051
+        },
+        "destinations": [
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Jeddah ",
+            "country": "Saudi Arabia",
+            "lat": 21.6830091,
+            "lon": 39.16634979
+        },
+        "destinations": [
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Karachi",
+            "country": "Pakistan",
+            "lat": 24.860735,
+            "lon": 67.001137
+        },
+        "destinations": [
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Kuwait",
+            "country": "Kuwait",
+            "lat": 29.2403852,
+            "lon": 47.97091705
+        },
+        "destinations": [
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Lahore",
+            "country": "Pakistan",
+            "lat": 31.52061463,
+            "lon": 74.41178216
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Lucknow",
+            "country": "India",
+            "lat": 26.76527649,
+            "lon": 80.88533803
+        },
+        "destinations": [
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Chennai",
+            "country": "India",
+            "lat": 12.98104406,
+            "lon": 80.15937623
+        },
+        "destinations": [
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Medina",
+            "country": "Saudi Arabia",
+            "lat": 24.470901,
+            "lon": 39.612236
+        },
+        "destinations": [
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Mashhad",
+            "country": "Iran",
+            "lat": 32.73998,
+            "lon": 35.32387
+        },
+        "destinations": [
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Masirah",
+            "country": "Oman",
+            "lat": 20.42498128,
+            "lon": 58.79658312
+        },
+        "destinations": [
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Multan",
+            "country": "Pakistan",
+            "lat": 30.157457,
+            "lon": 71.524918
+        },
+        "destinations": [
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Peshawar",
+            "country": "Pakistan",
+            "lat": 34.015137,
+            "lon": 71.524918
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Riyadh",
+            "country": "Saudi Arabia",
+            "lat": 24.9604887,
+            "lon": 46.70212343
+        },
+        "destinations": [
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Istanbul (Sabiha)",
+            "country": "Turkey",
+            "lat": 41.27677836,
+            "lon": 28.72996804
+        },
+        "destinations": [
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Sialkot",
+            "country": "Pakistan",
+            "lat": 32.532569,
+            "lon": 74.36766744
+        },
+        "destinations": [
+            {
+                "name": "Jeddah ",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Salalah",
+            "country": "Oman",
+            "lat": 17.04695823,
+            "lon": 54.08804568
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Baghdad ",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Tehran ",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Trabzon ",
+                "lat": 41.0020719,
+                "lon": 39.7192164
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Cairo (SPX) ",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Baku",
+                "lat": 40.409264,
+                "lon": 49.867092
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Medina",
+                "lat": 24.470901,
+                "lon": 39.612236
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Cairo (SPX) ",
+            "country": "Eygpt",
+            "lat": 30.10754038,
+            "lon": 30.88667988
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Shiraz",
+            "country": "Iran",
+            "lat": 29.60704,
+            "lon": 52.524651
+        },
+        "destinations": [
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Tirana",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Tirana",
+            "country": "Albania",
+            "lat": 41.41926081,
+            "lon": 19.71299069
+        },
+        "destinations": [
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Mashhad",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Chittagong",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Almaty",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Bharain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Trabzon ",
+            "country": "Turkey",
+            "lat": 41.0020719,
+            "lon": 39.7192164
+        },
+        "destinations": [
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.07725,
+                "lon": 55.30927
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Hyderabad ",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.176729,
+                "lon": 56.355046
+            }
+        ],
+        "transit": {
+            "name": "Muscat",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        }
+    },
+    {
+        "origin": {
+            "name": "Muscat",
+            "country": "Oman",
+            "lat": 23.60069209,
+            "lon": 58.28890729
+        },
+        "destinations": [
+            {
+                "name": "Almaty ",
+                "lat": 43.34651814,
+                "lon": 77.0119939
+            },
+            {
+                "name": "Baghdad",
+                "lat": 33.26771992,
+                "lon": 44.23077194
+            },
+            {
+                "name": "Bahrain",
+                "lat": 26.26741558,
+                "lon": 50.63001447
+            },
+            {
+                "name": "Bairut",
+                "lat": 33.82589151,
+                "lon": 35.49276702
+            },
+            {
+                "name": "Bangkok",
+                "lat": 13.69239184,
+                "lon": 100.750564
+            },
+            {
+                "name": "Cairo (SPX)",
+                "lat": 30.10754038,
+                "lon": 30.88667988
+            },
+            {
+                "name": "Calicut",
+                "lat": 11.13956658,
+                "lon": 75.95121222
+            },
+            {
+                "name": "Chattogram",
+                "lat": 22.24575776,
+                "lon": 91.81446412
+            },
+            {
+                "name": "Chennai",
+                "lat": 12.98104406,
+                "lon": 80.15937623
+            },
+            {
+                "name": "Colombo",
+                "lat": 7.180070835,
+                "lon": 79.88417006
+            },
+            {
+                "name": "Dammam",
+                "lat": 26.4731379,
+                "lon": 49.79453543
+            },
+            {
+                "name": "Delhi ",
+                "lat": 28.55629445,
+                "lon": 77.09960824
+            },
+            {
+                "name": "Dhaka",
+                "lat": 23.8432299,
+                "lon": 90.40206514
+            },
+            {
+                "name": "Doha",
+                "lat": 25.2677098,
+                "lon": 51.55819875
+            },
+            {
+                "name": "Dubai",
+                "lat": 25.25641278,
+                "lon": 55.36492579
+            },
+            {
+                "name": "Duqm",
+                "lat": 19.50340891,
+                "lon": 57.63664505
+            },
+            {
+                "name": "Fujairah",
+                "lat": 25.25641278,
+                "lon": 55.36492579
+            },
+            {
+                "name": "Hyderabad",
+                "lat": 17.361431,
+                "lon": 78.474533
+            },
+            {
+                "name": "Islamabad ",
+                "lat": 33.55620027,
+                "lon": 72.83441615
+            },
+            {
+                "name": "Istanbul (Sabiha)",
+                "lat": 41.27677836,
+                "lon": 28.72996804
+            },
+            {
+                "name": "Jaipur",
+                "lat": 26.82818436,
+                "lon": 75.80569051
+            },
+            {
+                "name": "Jeddah",
+                "lat": 21.6830091,
+                "lon": 39.16634979
+            },
+            {
+                "name": "Karachi",
+                "lat": 24.860735,
+                "lon": 67.001137
+            },
+            {
+                "name": "Kuwait",
+                "lat": 29.2403852,
+                "lon": 47.97091705
+            },
+            {
+                "name": "Lahore",
+                "lat": 31.52061463,
+                "lon": 74.41178216
+            },
+            {
+                "name": "Lucknow",
+                "lat": 26.76527649,
+                "lon": 80.88533803
+            },
+            {
+                "name": "Mashadd",
+                "lat": 32.73998,
+                "lon": 35.32387
+            },
+            {
+                "name": "Masirah",
+                "lat": 20.42498128,
+                "lon": 58.79658312
+            },
+            {
+                "name": "Multan",
+                "lat": 30.157457,
+                "lon": 71.524918
+            },
+            {
+                "name": "Muscat - Hub ",
+                "lat": 23.60069209,
+                "lon": 58.28890729
+            },
+            {
+                "name": "Peshawar",
+                "lat": 34.015137,
+                "lon": 71.524918
+            },
+            {
+                "name": "Phuket",
+                "lat": 8.105340192,
+                "lon": 98.30522515
+            },
+            {
+                "name": "Riyadh",
+                "lat": 24.9604887,
+                "lon": 46.70212343
+            },
+            {
+                "name": "Salalah",
+                "lat": 17.04695823,
+                "lon": 54.08804568
+            },
+            {
+                "name": "Shiraz",
+                "lat": 29.60704,
+                "lon": 52.524651
+            },
+            {
+                "name": "Sialkot",
+                "lat": 32.532569,
+                "lon": 74.36766744
+            },
+            {
+                "name": "Tehran",
+                "lat": 35.40981184,
+                "lon": 51.15535079
+            },
+            {
+                "name": "Tirana ",
+                "lat": 41.41926081,
+                "lon": 19.71299069
+            }
+        ],
+        "transit": {
+            "name": "No Transit",
+            "lat": 0.0,
+            "lon": 0.0
+        }
+    }
+]
